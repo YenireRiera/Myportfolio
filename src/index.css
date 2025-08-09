@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@utility container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+  max-width: 1500px;
+}
+
+@theme {
+  --font-Inter: "Inter", sans-serif;
+  --font-Alice: "Alice", serif;
+}
+@keyframes subtlePulse {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
