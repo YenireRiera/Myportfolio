@@ -1,4 +1,4 @@
-import { skills, softSkills } from "../../constants/index";
+import { skills, softSkills } from "../../constants";
 import { TextHoverEffect } from "./ui/Hover";
 const Skills = () => {
   return (
