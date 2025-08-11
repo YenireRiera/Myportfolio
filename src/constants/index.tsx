@@ -171,7 +171,7 @@ export const education = [
 export const skills = [
 {
 		id: 1,
-		imageSrc: '../../public/img/react.png',
+		imageSrc: '/img/react.png',
 		technologyName: 'React',
 		context: 'Frontend',
 		bgColor: '#E1F5FE',
@@ -181,7 +181,7 @@ export const skills = [
 
 	{
 		id: 3,
-		imageSrc: '../../public/img/nodejs.png',
+		imageSrc: '/img/nodejs.png',
 		technologyName: 'Node.js',
 		context: 'Backend',
 		bgColor: '#E8F5E8',
@@ -190,7 +190,7 @@ export const skills = [
 	
 	{
 		id: 6,
-		imageSrc: '../../public/img/tailwindcss.png',
+		imageSrc: '/img/tailwindcss.png',
 		technologyName: 'Tailwind CSS',
 		context: 'UI/UX',
 		bgColor: '#E0F7FA',
@@ -198,7 +198,7 @@ export const skills = [
 	},
 	{
 		id: 7,
-		imageSrc: '../../public/img/typescript.png',
+		imageSrc: '/img/typescript.png',
 		technologyName: 'TypeScript',
 		context: 'Language',
 		bgColor: '#E3F2FD',
@@ -206,7 +206,7 @@ export const skills = [
 	},
 	{
 		id: 8,
-		imageSrc: '../../public/img/javascript.png',
+		imageSrc: '/img/javascript.png',
 		technologyName: 'JavaScript',
 		context: 'Language',
 		bgColor: '#FFFDE7',
@@ -214,7 +214,7 @@ export const skills = [
 	},
 	{
 		id: 9,
-		imageSrc: '../../public/img/python.png',
+		imageSrc: '/img/python.png',
 		technologyName: 'Python',
 		context: 'Backend',
 		bgColor: '#E3F2FD',
@@ -223,7 +223,7 @@ export const skills = [
 
 	{
 		id: 13,
-		imageSrc: '../../public/img/graphql.png',
+		imageSrc: '/img/graphql.png',
 		technologyName: 'GraphQL',
 		context: 'API',
 		bgColor: '#FCE4EC',
@@ -231,7 +231,7 @@ export const skills = [
 	},
 	{
 		id: 14,
-		imageSrc: '../../public/img/docker.png',
+		imageSrc: '/img/docker.png',
 		technologyName: 'Docker',
 		context: 'DevOps',
 		bgColor: '#E3F2FD',
@@ -239,7 +239,7 @@ export const skills = [
 	},
 	{
 		id: 17,
-		imageSrc: '../../public/img/mongodb.png',
+		imageSrc: '/img/mongodb.png',
 		technologyName: 'MongoDB',
 		context: 'Database',
 		bgColor: '#E8F5E8',
@@ -247,7 +247,7 @@ export const skills = [
 	},
 	{
 		id: 18,
-		imageSrc: '../../public/img/postgresql.png',
+		imageSrc: '/img/postgresql.png',
 		technologyName: 'PostgreSQL',
 		context: 'Database',
 		bgColor: '#E3F2FD',

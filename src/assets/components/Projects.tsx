@@ -8,14 +8,14 @@ const Projects = () => {
       title: "SICOT - Sistema Integral de Seguridad",
       description:
         "Aplicación web para el control y operación de seguridad en el trabajo. Permite reportes, inspecciones y notificaciones según el rol del usuario.",
-      image: "../../../public/img/SicotImg.png",
+      image: "/img/SicotImg.png",
       link: "https://yenireriera.github.io/SICOT/",
     },
     {
       title: "Portafolio Profesional",
       description:
         "Sitio web personal creado con React, Tailwind y TypeScript para presentar proyectos, habilidades y experiencia profesional.",
-      image: "../../../public/img/PortafolioYenire.png",
+      image: "/img/PortafolioYenire.png",
       link: "https://yeniredev.netlify.app",
     },
     {
