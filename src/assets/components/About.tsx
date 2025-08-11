@@ -12,7 +12,7 @@ const About = () => {
       </h2>
 
       {/* Presentación */}
-      <div className="bg-black/80 border border-[#d7b186] rounded-xl p-6 mb-10 shadow-lg hover:shadow-2xl transition-all duration-300">
+      <div className="bg-black border border-[#d7b186] rounded-xl p-6 mb-10 shadow-lg hover:shadow-2xl transition-all duration-300">
         <p className="text-gray-300 text-lg leading-relaxed">
           I am a passionate{" "}
           <span className="text-[#d7b186] font-semibold">
@@ -37,7 +37,7 @@ const About = () => {
             {experience.map((exp) => (
               <div
                 key={exp.id}
-                className="bg-black/80 p-5 rounded-xl shadow-lg border border-[#80DEEA] hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
+                className="hover:bg-black p-5 rounded-xl shadow-lg border border-[#80DEEA] hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
               >
                 <h4 className="text-lg font-semibold font-Inter text-amber-50 flex items-center gap-2">
                   <FaRegBuilding className="text-[#d7b186]" />
@@ -86,7 +86,7 @@ const About = () => {
             {education.map((edu) => (
               <div
                 key={edu.id}
-                className="bg-black/80 p-5 rounded-xl shadow-lg border border-[#90EF9] hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
+                className="hover:bg-black p-5 rounded-xl shadow-lg border border-[#90EF9] hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
               >
                 <h4 className="text-lg font-bold text-amber-50 flex items-center gap-2">
                   <FaGraduationCap className="text-[#d7b186]" />

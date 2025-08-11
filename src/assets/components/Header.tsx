@@ -7,8 +7,9 @@ const Header = () => {
   const dockItems = [
     { title: "Home", icon: <FaHome size={20} />, href: "#home" },
     { title: "Projects", icon: <FaProjectDiagram size={20} />, href: "#projects" },
-    { title: "About", icon: <FaUser size={20} />, href: "#about" },
     { title: "Skills", icon: <FaCogs size={20} />, href: "#skills" },
+    { title: "About", icon: <FaUser size={20} />, href: "#about" },
+    
     
     ...personalInfo.socialLinks.map((link) => ({
       title: link.name,
